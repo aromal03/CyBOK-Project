@@ -1,0 +1,21 @@
+# Core data and visualization
+pandas>=2.0
+matplotlib>=3.7
+networkx>=3.0
+
+# Bayesian Network modelling and inference (used in BN_*.ipynb notebooks)
+pgmpy>=1.0
+
+# Diagram rendering for FTA and ETA notebooks
+# (Requires the Graphviz system binary to be installed separately:
+#  Windows: https://graphviz.org/download/
+#  macOS:   brew install graphviz
+#  Linux:   sudo apt-get install graphviz)
+graphviz>=0.20
+
+# Fault Tree Analysis library (used in FTA_Library_*.ipynb notebooks)
+pfta
+
+# Notebook display utilities
+ipython>=8.0
+jupyter
